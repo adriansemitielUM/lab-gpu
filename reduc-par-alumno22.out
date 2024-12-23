@@ -1,0 +1,15 @@
+Ejecutando el notebook de jupyter con 50000000 elementos
+Time taken by reduction operation using a function: 45.4 s ± 74.6 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+And the result of the sum of numbers in the range [0, value) is: 25000257.207552828
+
+Time taken by reduction operation using numpy.sum(): 60.1 ms ± 199 µs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+Now, the result using numpy.sum(): 25000257.207554013 
+ 
+Time taken by reduction operation using numpy.ndarray.sum(): 60.3 ms ± 345 µs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+Now, the result using numpy.ndarray.sum(): 25000257.207554013
+El tiempo con un solo proceso es: 48 s ± 5.77 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+El tiempo con dos procesos es: 25.7 s ± 25.3 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+El tiempo con cuatro procesos es: 13.3 s ± 1.04 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Tiempo que usa la función original: 60.3 ms ± 345 µs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+Tiempo que usa la función con el decorador njit: 207 ms ± 44.8 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Tiempo que usa la función con el decorador njit y paralelizada: 17.9 ms ± 5.11 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
