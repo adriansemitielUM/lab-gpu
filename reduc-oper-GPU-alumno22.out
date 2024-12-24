@@ -1,0 +1,45 @@
+Ejecutando la operación de reducción con 5000000 elementos
+Time taken by reduction operation using a function: 263 ms ± 475 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+And the result of the sum of numbers in the range [0, value) is: 2500716.024539858
+
+Time taken by reduction operation using numpy.sum(): 1.38 ms ± 1.08 µs per loop (mean ± std. dev. of 2 runs, 1,000 loops each)
+Now, the result using numpy.sum(): 2500716.024540222 
+ 
+Time taken by reduction operation using numpy.ndarray.sum(): 1.39 ms ± 5.12 µs per loop (mean ± std. dev. of 2 runs, 1,000 loops each)
+Now, the result using numpy.ndarray.sum(): 2500716.024540222
+Tiempo que tarda la operación de reducción usando CuPy: 0.380770 segundos
+Tiempo promedio que tarda la operación de reducción usando CuPy (benchmark): 0.085398 ms
+
+
+Resultado de la suma: 2500455.3354769163
+
+Ejecutando la operación de reducción con 50000000 elementos
+Time taken by reduction operation using a function: 2.61 s ± 1.18 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+And the result of the sum of numbers in the range [0, value) is: 25000019.474952582
+
+Time taken by reduction operation using numpy.sum(): 17.6 ms ± 548 ns per loop (mean ± std. dev. of 2 runs, 100 loops each)
+Now, the result using numpy.sum(): 25000019.474950016 
+ 
+Time taken by reduction operation using numpy.ndarray.sum(): 17.6 ms ± 9.98 µs per loop (mean ± std. dev. of 2 runs, 100 loops each)
+Now, the result using numpy.ndarray.sum(): 25000019.474950016
+Tiempo que tarda la operación de reducción usando CuPy: 0.019101 segundos
+Tiempo promedio que tarda la operación de reducción usando CuPy (benchmark): 0.702125 ms
+
+
+Resultado de la suma: 24994568.087425876
+
+Ejecutando la operación de reducción con 500000000 elementos
+Time taken by reduction operation using a function: 52.8 s ± 145 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+And the result of the sum of numbers in the range [0, value) is: 250000017.95264807
+
+Time taken by reduction operation using numpy.sum(): 216 ms ± 78.6 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Now, the result using numpy.sum(): 250000017.9526514 
+ 
+Time taken by reduction operation using numpy.ndarray.sum(): 216 ms ± 103 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Now, the result using numpy.ndarray.sum(): 250000017.9526514
+Tiempo que tarda la operación de reducción usando CuPy: 0.040583 segundos
+Tiempo promedio que tarda la operación de reducción usando CuPy (benchmark): 6.850957 ms
+
+
+Resultado de la suma: 249996452.15224293
+
